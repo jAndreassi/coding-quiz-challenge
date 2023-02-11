@@ -1,0 +1,63 @@
+body {
+  background-color: #eff5f8;
+}
+
+#head {
+  display: flex;
+  background-color: #1b5448;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: #eff5f8;
+}
+h3 {
+  color: #eff5f8;
+  font-size: 25px;
+}
+h4 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #eff5f8;
+}
+
+.container {
+  display: block;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 60vw;
+  background-color: #541b27;
+}
+
+.wrapper {
+  padding-top: 20px;
+}
+
+#quiz {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 25px 50px 25px;
+}
+
+button {
+  flex-direction: column;
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #1b5448;
+  color: white;
+}
+
+a {
+  color: #eff5f8;
+}
+
+li {
+  color: #eff5f8;
+}
