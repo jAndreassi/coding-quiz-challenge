@@ -13,6 +13,13 @@ h1 {
   font-size: 50px;
   color: #eff5f8;
 }
+
+h2 {
+  justify-content: center;
+  color: #eff5f8;
+  font-size: 35px;
+  /* padding-left: 100px; */
+}
 h3 {
   color: #eff5f8;
   font-size: 25px;
@@ -37,6 +44,9 @@ h4 {
 .wrapper {
   padding-top: 20px;
 }
+#startclock {
+  align-items: center;
+}
 
 #quiz {
   display: flex;
@@ -45,6 +55,7 @@ h4 {
 }
 
 button {
+  display: flex
   flex-direction: column;
   padding: 10px;
   margin: 24px;
@@ -56,8 +67,14 @@ button {
 
 a {
   color: #eff5f8;
+  justify-content: center;
 }
 
 li {
   color: #eff5f8;
+  font-size: 30px;
+}
+
+#game {
+  font-size: 25px;
 }

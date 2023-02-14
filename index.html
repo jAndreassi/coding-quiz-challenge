@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding Quiz Challenge</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
 
   <body>
@@ -15,23 +15,26 @@
       <h2 class="time"></h2>
       <div id="main"></div>
     </header>
+    -
 
     <div class="container">
       <div id="quiz">
         <h4>Current Score: <span id="count">0</span></h4>
-
         <button id="startclock">Push me to start the Quiz</button>
-        <button id="ans.opt.1">Option 1</button>
-        <button id="ans.opt.2">Option 2</button>
-        <button id="ans.opt.3">Option 3</button>
-        <button id="ans.opt.4">Option 4</button>
-        <button>
-          <a id="scorehistory" href="scorekeeper.html"
-            >Check the score history</a
-          >
-        </button>
+      </div>
+      <div id="answerbox">
+        <button id="button1"></button>
+        <button id="button2"></button>
+        <button id="button3"></button>
       </div>
     </div>
-    <script src="./assets/js/script.js"></script>
+    <div>
+      <button>
+        <a id="scorehistory" href="./assets/scorekeeper.html"
+          >Check the score history</a
+        >
+      </button>
+    </div>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
